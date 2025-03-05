@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Kingdom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <aside class="sidebar">
+      <h2>Search Animals</h2>
+      <input type="text" placeholder="Search animals..." id="searchBox">
+    </aside>
+
+    <section class="animal-container">
+      <article class="animal-card" onclick="showInfo('Gorilla – A strong and social primate, born in 2015.')">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffiles.worldwildlife.org%2Fwwfcmsprod%2Fimages%2FMountain_Gorilla_Silverback_WW22557%2Fstory_full_width%2F36fcoamev0_Mountain_Gorilla_Silverback_WW22557.jpg&f=1&nofb=1&ipt=04f9c843079c99cef74e58b9f2241ab4d2dbd36a9d890bae7ee0ca5a4500aaf9&ipo=images" alt="Gorilla" class="animal-image">
+        <h3>Gorilla</h3>
+        <p><strong>Type:</strong> Primate</p>
+        <p><strong>Color:</strong> Black</p>
+        <p><strong>Birth Year:</strong> 2015</p>
+        <p><strong>Description:</strong> A strong and social primate.</p>
+      </article>
+
+      <article class="animal-card" onclick="showInfo('Lion – The king of the jungle, born in 2012.')">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fzooplanet.se%2Fwp-content%2Fuploads%2F2021%2F08%2FLejon-850x532.jpg&f=1&nofb=1&ipt=2d3e9284b7ed951c3e272edac00d3bb3487fff724deb2bb40024dd4cbb3faa1c&ipo=images" alt="Lion" class="animal-image">
+        <h3>Lion</h3>
+        <p><strong>Type:</strong> Mammal</p>
+        <p><strong>Color:</strong> Golden</p>
+        <p><strong>Birth Year:</strong> 2012</p>
+        <p><strong>Description:</strong> A majestic predator.</p>
+      </article>
+
+      <article class="animal-card" onclick="showInfo('Elephant – The largest land animal, born in 2010.')">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.fotocommunity.com%2Fafrikanischer-elefant-34e38c2d-4e10-44b9-b074-d64b6b79ac6e.jpg%3Fheight%3D1080&f=1&nofb=1&ipt=4c3f35f850f4864093955c9fc8c15c36d0b638aeef02dc99c0cf259672a08b2a&ipo=images" alt="Elephant" class="animal-image">
+        <h3>Elephant</h3>
+        <p><strong>Type:</strong> Mammal</p>
+        <p><strong>Color:</strong> Gray</p>
+        <p><strong>Birth Year:</strong> 2010</p>
+        <p><strong>Description:</strong> A large and intelligent animal.</p>
+      </article>
+
+      <article class="animal-card" onclick="showInfo('Zebra – Known for its stripes, born in 2018.')">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgwedalodge.com%2Fwp-content%2Fuploads%2F2022%2F11%2FZebras.jpg&f=1&nofb=1&ipt=8760de1268111d2502128f22235772a605c376322cca8ae8be39b9f0cd9988ea&ipo=images" alt="Zebra" class="animal-image">
+        <h3>Zebra</h3>
+        <p><strong>Type:</strong> Mammal</p>
+        <p><strong>Color:</strong> Black & White</p>
+        <p><strong>Birth Year:</strong> 2018</p>
+        <p><strong>Description:</strong> A fast and elegant animal.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Follow us on 
+      <a href="https://facebook.com" target="_blank">Facebook</a>, 
+      <a href="https://instagram.com" target="_blank">Instagram</a>, 
+      <a href="https://twitter.com" target="_blank">Twitter</a> | 
+      <a href="contact.html">Contact Us</a> | 
+      <a href="#">Privacy Policy</a>
+    </p>
+    <p>&copy; 2025 <strong>Animal Kingdom</strong>. All Rights Reserved. | Developed & Designed by 
+      <strong><a href="https://github.com/RicardoNicolau" target="_blank">Ricardo Nicolau</a></strong>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
