@@ -4,7 +4,7 @@ Animal Kingdom is a responsive website for a fictional zoo that showcases a vari
 
 ## Live Demo
 
-Check out the live demo at [Animal Kingdom Live](#) (https://animal-search-rn.netlify.app)
+Check out the live demo at [Animal Kingdom Live](https://animal-search-rn.netlify.app)
 
 ## Features
 
