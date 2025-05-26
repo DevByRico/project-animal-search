@@ -21,4 +21,4 @@ Check out the live demo at [Animal Kingdom Live](https://animal-search-rn.netlif
 - **script.js:** The JavaScript file that implements the search functionality and handles interactive alerts.
 - **README.md:** This documentation file.
 
-© 2025 Animal Kingdom. All Rights Reserved. | Developed & Designed by Ricardo Nicolau
+© 2025 Animal Kingdom. All Rights Reserved. | Developed & Designed by DevByRico
